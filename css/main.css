@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: skyblue;
+}
+
+nav>ul{
+  height: 20vh;
+  width:100%;
+  margin-left: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav>ul>li>a{
+  color:white;
+  font-family: "proxima-nova-soft";
+}
+
+.user{
+  display: flex;
+  height: 20vh;
+  align-items: center;
+}
+
+.iconU{
+  border:1px solid white;
+  margin:2%;
+  padding:1%;
+  border-radius: 50%;
+  color:white;
+}
+
+.icon{
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.right{
+  position:absolute;
+  right: 15px;
+  top:2px;
+}
+
+.icon--xs{
+  width:26px;
+  height:26px;
+  position:absolute;
+  z-index:4;
+  cursor:pointer;
+}
+
+.navbar-brand img{
+  display:block;
+  width:90px;
+  padding: 0;
+}
+
+.row-nav{
+  overflow:auto;
+  width:90%;
+  margin:20px auto;
+}
+
+.hello{
+  color:white;
+  padding: 10px;
+  background-color: #ED7161;
+  display:block;
+  position:fixed;
+  width:100%;
+}
+
+a:hover{
+  text-decoration: none;
+  color:blue;
+}
+
+.heading{
+  font-size: 6.57143rem;
+  line-height: 5.14286rem;
+  font-family: "proxima-nova-soft";
+  font-weight: 600;
+}
+
+.subheading{
+  font-size: 2.5rem;
+  line-height: 4rem;
+  font-family: "proxima-nova-soft";
+  font-weight: 600;
+}
+
+.white{
+  color:white;
+}
+
+.hero-park{
+  display: block;
+  position:absolute;
+  width:260px;
+  height:316px;
+  bottom:0;
+}
+
+.hero-brench{
+  display:block;
+  position:absolute;
+  width:148px;
+  height:68px;
+  bottom:0;
+  right: 20em;
+}
+
+.hero-all{
+  display:block;
+  position:absolute;
+  width: 98.7%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  bottom: -10px;
+  padding: 0;
+
+}
+
+.portada{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70vh;
+}
+
+a.bstyle{
+  background-color:#3498DB;
+  border-radius: 999px;
+  color:white;
+  font-size: 24px;
+  padding:14px 45px;
+}
+
+a.bstyle:hover{
+  color:white;
+  background-color:#1280C9;
+  cursor: pointer;
+}
+
+.port{
+  background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+  overflow: auto;
+}
+
+@media screen and (max-width:960px){
+  div.port{
+    background-position:right;
+  }
+}
